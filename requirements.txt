@@ -1,0 +1,10 @@
+### dependency
+streamlit
+numpy
+plotly
+pandas
+matplotlib
+scikit-learn
+
+### local packages -
+-e . 
