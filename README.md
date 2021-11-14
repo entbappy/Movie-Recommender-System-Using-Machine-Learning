@@ -53,7 +53,7 @@ conda activate movie
 pip install -r requirements.txt
 ```
 
-### STEP 02- install the requirements
+
 ```bash
 #run this file to generate the models
 
