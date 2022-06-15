@@ -73,19 +73,17 @@ here is a demo,
 
 * [Dataset link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
 
-# Concept used to build the model.pkl file : NearestNeighbors
+# Concept used to build the model.pkl file : cosine_similarity
 
-1 . Load the data
+1 . Cosine Similarity is a metric that allows you to measure the similarity of the documents.
 
-2 . Initialise the value of k
+2 . In order to demonstrate cosine similarity function we need vectors. Here vectors are numpy array.
 
-3 . For getting the predicted class, iterate from 1 to total number of training data points
+3 . Finally, Once we have vectors, We can call cosine_similarity() by passing both vectors. It will calculate the cosine similarity between these two.
 
-4 . Calculate the distance between test data and each row of training data. Here we will use Euclidean distance as our distance metric since it’s the most popular method. 
+4 . It will be a value between [0,1]. If it is 0 then both vectors are complete different. But in the place of that if it is 1, It will be completely similar.
 
-5 . Sort the calculated distances in ascending order based on distance values
-
-6 . Get top k rows from the sorted array
+5 . For more details , check URL : https://www.learndatasci.com/glossary/cosine-similarity/
 
 # How to run?
 ### STEPS:
